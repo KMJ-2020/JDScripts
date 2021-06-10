@@ -1,4 +1,7 @@
-## Special statement:
+# 特此声明：
+## 此库是**K大佬最后的资源，本人只是多账号使用，更改了部分脚本助力码以供自己互助使用，如果他人使用，本人并不负责任何问题。如果自己想助力请动动脑子想想办法。
+
+# Special statement:
 
 * Any unlocking and decryption analysis scripts involved in the Script project released by this warehouse are only used for testing, learning and research, and are forbidden to be used for commercial purposes. Their legality, accuracy, completeness and effectiveness cannot be guaranteed. Please make your own judgment based on the situation. .
 
