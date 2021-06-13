@@ -464,7 +464,7 @@ function getAuthorShareCode(url = "http://cdn.annnibb.me/jd_cash.json") {
     $.get({url, headers:{
         "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1 Edg/87.0.4280.88"
       }, timeout: 200000,}, async (err, resp, data) => {
-      $.authorCode = [];
+      $.authorCode = [`WGZNce6yZP0@eU9Ya7q2N_Qn9m7QwyAR0A@ZE9iO4vyJ4J0ljGUsCw@eU9Yab3nNf4n9zrdnXNCgw@eU9YaeW2Y6km-GrczHtH1g@eU9Yab67ZK9w-W_Sn3ZBgw@eU9YG4TtLpZVmCqJrRFr`];
       try {
         if (err) {
         } else {
@@ -483,7 +483,7 @@ function getAuthorShareCode2(url = "https://cdn.jsdelivr.net/gh/gitupdate/update
     $.get({url, headers:{
         "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1 Edg/87.0.4280.88"
       }, timeout: 200000,}, async (err, resp, data) => {
-      $.authorCode2 = [];
+      $.authorCode2 = [`WGZNce6yZP0@eU9Ya7q2N_Qn9m7QwyAR0A@ZE9iO4vyJ4J0ljGUsCw@eU9Yab3nNf4n9zrdnXNCgw@eU9YaeW2Y6km-GrczHtH1g@eU9Yab67ZK9w-W_Sn3ZBgw@eU9YG4TtLpZVmCqJrRFr`];
       try {
         if (err) {
         } else {
