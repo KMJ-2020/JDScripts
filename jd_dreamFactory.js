@@ -989,7 +989,7 @@ async function joinLeaderTuan() {
 //如果团ID不为空，则查询QueryTuan()
 function QueryActiveConfig() {
   return new Promise((resolve) => {
-    const body = `activeId=${escape(tuanActiveId)}&tuanId=`;
+    const body = `activeId=${escape(tuanActiveId)}&tuanId=STLN1hIO2zZB3gm_hWORrw==`;
     const options = taskTuanUrl(`QueryActiveConfig`, body, `_time,activeId,tuanId`)
     $.get(options, async (err, resp, data) => {
       try {
