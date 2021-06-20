@@ -733,7 +733,7 @@
     },
     {
       "id": "jd_jxd",
-      "name": "京小兑",
+      "name": "京小兑（无效）",
       "keys": [],
       "settings": [
         {
@@ -748,7 +748,7 @@
       "repo": "https://gitee.com/lxk0301/jd_scripts/tree/master",
       "scripts":[
         {
-          "name" : "京小兑",
+          "name" : "京小兑（无效）",
           "script" : "https://gitee.com/lxk0301/jd_scripts/raw/master/jd_jxd.js"
         }
       ],
