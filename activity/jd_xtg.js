@@ -22,7 +22,7 @@ cron "0 0 0 * * *" script-path=jd_xtg.js,tag=家电星推官
 家电星推官 = type=cron,script-path=jd_xtg.js, cronexpr="0 0 0 * * *", timeout=3600, enable=true
  */
 const $ = new Env("家电星推官");
-const activeEndTime = "2021/06/18 23:59:59+08:00"; //活动结束时间
+const activeEndTime = "2022/06/18 23:59:59+08:00"; //活动结束时间
 const notify = $.isNode() ? require("./sendNotify") : "";
 //Node.js用户请在jdCookie.js处填写京东ck;
 const jdCookieNode = $.isNode() ? require("./jdCookie.js") : "";
