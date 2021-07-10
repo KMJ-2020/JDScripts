@@ -31,8 +31,8 @@ let helpAuthor = true;
 const randomCount = $.isNode() ? 5 : 5;
 let cash_exchange = false;//是否消耗2元红包兑换200京豆，默认否
 const inviteCodes = [
-  `WGZNce6yZP0@eU9Yab67ZK9w-W_Sn3ZBgw`,
-  `WGZNce6yZP0@eU9Yab67ZK9w-W_Sn3ZBgw`
+  `eU9Yab67ZK9w-W_Sn3ZBgw@eU9Yab3nNf4n9zrdnXNCgw@eU9YaeW2Y6km-GrczHtH1g`,
+  `eU9Yab67ZK9w-W_Sn3ZBgw@eU9Yab3nNf4n9zrdnXNCgw@eU9YaeW2Y6km-GrczHtH1g`
 ]
 if ($.isNode()) {
   Object.keys(jdCookieNode).forEach((item) => {
@@ -464,7 +464,7 @@ function getAuthorShareCode(url = "https://raw.githubusercontent.com/KMJ-2020/Qu
     $.get({url, headers:{
         "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1 Edg/87.0.4280.88"
       }, timeout: 200000,}, async (err, resp, data) => {
-      $.authorCode = [`WGZNce6yZP0@eU9Yab67ZK9w-W_Sn3ZBgw`];
+      $.authorCode = [`eU9Yab67ZK9w-W_Sn3ZBgw@eU9Yab3nNf4n9zrdnXNCgw@eU9YaeW2Y6km-GrczHtH1g`];
       try {
         if (err) {
         } else {
@@ -483,7 +483,7 @@ function getAuthorShareCode2(url = "https://raw.githubusercontent.com/KMJ-2020/Q
     $.get({url, headers:{
         "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1 Edg/87.0.4280.88"
       }, timeout: 200000,}, async (err, resp, data) => {
-      $.authorCode2 = [`WGZNce6yZP0@eU9Yab67ZK9w-W_Sn3ZBgw`];
+      $.authorCode2 = [`eU9Yab67ZK9w-W_Sn3ZBgw@eU9Yab3nNf4n9zrdnXNCgw@eU9YaeW2Y6km-GrczHtH1g`];
       try {
         if (err) {
         } else {
