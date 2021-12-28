@@ -4,6 +4,7 @@
  "task": [
     "2 9 * * * https://raw.githubusercontent.com/KMJ-2020/JDScripts/main/jd_bean_change.js, tag=京东资产变动通知, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true",
     "55 23 * * * https://raw.githubusercontent.com/KMJ-2020/JDScripts/main/jd_unsubscribe.js, tag=取关京东店铺商品, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true",
+    "55 23 * * * https://raw.githubusercontent.com/KMJ-2020/JDScripts/main/jd_unsubscriLive.js, tag=取关京东主播, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true",
     "20 13 * * 6 https://raw.githubusercontent.com/KMJ-2020/JDScripts/main/jd_get_share_code.js, tag=获取互助码, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true",
     "0 2 * * * https://raw.githubusercontent.com/KMJ-2020/JDScripts/main/jd_price.js, tag=京东保价, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png, enabled=true",
     "8 0-23/3 * * * https://raw.githubusercontent.com/KMJ-2020/JDScripts/main/jd_speed.js, tag=京东天天加速, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdjs.png, enabled=true",
