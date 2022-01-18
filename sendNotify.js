@@ -148,8 +148,16 @@ if (process.env.PUSH_PLUS_USER) {
  * @param author 作者仓库等信息  例：`本脚本免费使用 By：xxxx`
  * @returns {Promise<unknown>}
  */
+const exec = require('child_process').exec;
 async function sendNotify(text, desp, params = {}, author = '\n\n仅供用于学习') {
   //提供6种通知
+  //调用python脚本，转换ck
+    if(text.indexOf("cookie已失效") != -1)
+    {
+      exec('task Zy143L_wskey/wskey.py ',function(error,stdout,stderr){
+          console.log(error,stdout,stderr);
+      });
+    }
   desp += author;//增加作者信息，防止被贩卖等
   await Promise.all([
     serverNotify(text, desp),//微信server酱
