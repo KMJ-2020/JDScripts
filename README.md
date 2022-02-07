@@ -1,5 +1,5 @@
 # 特此声明：
-## 此库是**K大佬最后的资源，本人只是多账号使用，更改了部分脚本助力码以供自己互助使用，如果他人使用，本人并不负责任何问题。如果自己想助力请动动脑子想想办法。
+## 此库是好多年前隐匿山林的某位大佬最后的成果，本人只是多账号使用，更改了部分脚本助力码以供自己互助使用，如果他人使用，本人并不负责任何所有问题。如果自己想助力请动动脑子想想办法。现在已经有好多失效的了，自用而已。
 
 # Special statement:
 
@@ -24,14 +24,4 @@
 ## Special thanks to:
 
 
-* [@NobyDa](https://github.com/NobyDa)
-
-* [@chavyleung](https://github.com/chavyleung)
-
-* [@liuxiaoyucc](https://github.com/liuxiaoyucc)
-
-* [@Zero-S1](https://github.com/Zero-S1)
-
-* [@uniqueque](https://github.com/uniqueque)
-
-* [@nzw9314](https://github.com/nzw9314)
+* 不再体现任何相关人员，请谅解，懂的自然懂，不懂得就别了解了
